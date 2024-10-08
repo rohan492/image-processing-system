@@ -68,5 +68,7 @@ image-processing-system/
 
 To run tests for the main application:
 
+```
 cd main-app
 npm test
+```
