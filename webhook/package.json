@@ -1,0 +1,22 @@
+{
+  "name": "webhook-receiver",
+  "version": "1.0.0",
+  "description": "A simple webhook receiver for the image processing system",
+  "main": "webhook-receiver.js",
+  "type": "module",
+  "scripts": {
+    "start": "node webhook-receiver.js",
+    "dev": "nodemon webhook-receiver.js",
+    "tunnel": "ngrok http 3001"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^5.0.0",
+    "ngrok": "^4.0.1",
+    "nodemon": "^2.0.7"
+  }
+}
