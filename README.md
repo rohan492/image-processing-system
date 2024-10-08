@@ -4,12 +4,14 @@ This project consists of two main components: a main application for processing 
 
 ## Project Structure
 
+```
 image-processing-system/
 ├── main-app/
-│ └── (main application files)
+│   └── (main application files)
 ├── webhook/
-│ └── (webhook receiver files)
+│   └── (webhook receiver files)
 └── README.md
+```
 
 ## Prerequisites
 
