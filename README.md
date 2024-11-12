@@ -1,4 +1,4 @@
-# Image Processing System
+# Image Processing System (Beta)
 
 This project consists of two main components: a main application for processing images from CSV files, and a webhook receiver for handling notifications.
 
